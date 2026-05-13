@@ -6,7 +6,7 @@
 /*   By: fbarrada <fbarrada@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/21 12:05:31 by fbarrada          #+#    #+#             */
-/*   Updated: 2026/04/29 15:02:27 by fbarrada         ###   ########.fr       */
+/*   Updated: 2026/05/13 18:12:21 by fbarrada         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,9 +19,3 @@ int	ft_isalpha(int c)
 	else
 		return (0);
 }
-
-// int	main(void)
-// {
-// 	printf("%d", ft_isalpha('!'));
-// 	return (0);
-// }

@@ -6,7 +6,7 @@
 /*   By: fbarrada <fbarrada@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/23 11:41:32 by fbarrada          #+#    #+#             */
-/*   Updated: 2026/04/28 15:18:13 by fbarrada         ###   ########.fr       */
+/*   Updated: 2026/05/13 18:14:44 by fbarrada         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,12 +18,3 @@ int	ft_tolower(int c)
 		return (c + 32);
 	return (c);
 }
-
-// int     main()
-// {
-//         int     l;
-
-//         l = ft_tolower('A');
-//         write (1, &l, 1);
-//         return (0);
-// }

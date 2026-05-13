@@ -6,7 +6,7 @@
 /*   By: fbarrada <fbarrada@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/21 12:05:31 by fbarrada          #+#    #+#             */
-/*   Updated: 2026/05/05 16:15:07 by fbarrada         ###   ########.fr       */
+/*   Updated: 2026/05/13 18:12:33 by fbarrada         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,9 +19,3 @@ int	ft_isprint(int c)
 	else
 		return (0);
 }
-
-// int     main()
-// {
-//         printf("%d", ft_isprint(32));
-//         return (0);
-// }

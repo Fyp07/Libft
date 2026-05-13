@@ -6,7 +6,7 @@
 /*   By: fbarrada <fbarrada@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/29 13:29:47 by fbarrada          #+#    #+#             */
-/*   Updated: 2026/04/29 14:23:11 by fbarrada         ###   ########.fr       */
+/*   Updated: 2026/05/13 18:13:28 by fbarrada         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,9 +16,3 @@ void	ft_putchar_fd(char c, int fd)
 {
 	write(fd, &c, 1);
 }
-
-// int     main()
-// {
-//         ft_putchar_fd('a', 1);
-//         return (0);
-// }

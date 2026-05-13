@@ -6,7 +6,7 @@
 /*   By: fbarrada <fbarrada@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/21 12:05:31 by fbarrada          #+#    #+#             */
-/*   Updated: 2026/05/05 17:19:44 by fbarrada         ###   ########.fr       */
+/*   Updated: 2026/05/13 18:12:14 by fbarrada         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,11 +25,3 @@ void	ft_bzero(void *s, size_t n)
 		i++;
 	}
 }
-
-// int     main()
-// {
-//         char    name[8] = "Felyppe";
-//         ft_bzero(name, 8);
-//         printf("%s", name);
-//         return (0);
-// }

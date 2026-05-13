@@ -6,7 +6,7 @@
 /*   By: fbarrada <fbarrada@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/21 18:28:04 by fbarrada          #+#    #+#             */
-/*   Updated: 2026/05/07 15:52:27 by fbarrada         ###   ########.fr       */
+/*   Updated: 2026/05/13 18:11:54 by fbarrada         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,15 +30,3 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
-
-// int     main()
-// {
-//         char    dest[50];
-//         const   char src[50] = "Felyppe";
-//         size_t  n = 5;
-
-//         printf("%s\n", dest);
-//         ft_memcpy(dest, src, n);
-//         printf("%s\n", dest);
-//         return (0);
-// }

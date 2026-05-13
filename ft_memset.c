@@ -6,7 +6,7 @@
 /*   By: fbarrada <fbarrada@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/21 12:05:31 by fbarrada          #+#    #+#             */
-/*   Updated: 2026/05/06 14:07:24 by fbarrada         ###   ########.fr       */
+/*   Updated: 2026/05/13 18:13:23 by fbarrada         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,11 +26,3 @@ void	*ft_memset(void *s, int c, size_t n)
 	}
 	return (s);
 }
-
-// int     main()
-// {
-//         char    name = "Felyppe";
-//         ft_memset(name, '!', 7);
-//         printf("%s", name);
-//         return (0);
-// }

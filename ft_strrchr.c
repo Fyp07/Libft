@@ -6,7 +6,7 @@
 /*   By: fbarrada <fbarrada@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/29 14:26:41 by fbarrada          #+#    #+#             */
-/*   Updated: 2026/04/29 14:58:09 by fbarrada         ###   ########.fr       */
+/*   Updated: 2026/05/13 18:14:30 by fbarrada         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,12 +25,3 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	return (NULL);
 }
-
-// int     main()
-// {
-//         char    *str;
-
-//         str = ft_strrchr("Felyppe", 'p');
-//         printf("%s", str);
-//         return (0);
-// }

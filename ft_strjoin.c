@@ -6,7 +6,7 @@
 /*   By: fbarrada <fbarrada@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/27 15:45:39 by fbarrada          #+#    #+#             */
-/*   Updated: 2026/05/13 13:56:03 by fbarrada         ###   ########.fr       */
+/*   Updated: 2026/05/13 18:14:08 by fbarrada         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,12 +35,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	newstr[i] = '\0';
 	return (newstr);
 }
-
-// int     main()
-// {
-//         char    *newstr;
-
-//         newstr = ft_strjoin("Felyppe", " Augusto");
-//         printf("%s", newstr);
-//         return (0);
-// }

@@ -6,7 +6,7 @@
 /*   By: fbarrada <fbarrada@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/28 12:13:22 by fbarrada          #+#    #+#             */
-/*   Updated: 2026/05/05 18:08:54 by fbarrada         ###   ########.fr       */
+/*   Updated: 2026/05/13 18:12:37 by fbarrada         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,9 +61,3 @@ char	*ft_itoa(int n)
 	return (str);
 }
 
-// int	main()
-// {
-// 	printf("%s\n", ft_itoa(0));
-// 	printf("%s\n", ft_itoa(-12312312));
-// 	return (0);
-// }

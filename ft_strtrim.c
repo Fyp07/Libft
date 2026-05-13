@@ -6,7 +6,7 @@
 /*   By: fbarrada <fbarrada@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/27 16:08:41 by fbarrada          #+#    #+#             */
-/*   Updated: 2026/05/07 14:31:46 by fbarrada         ###   ########.fr       */
+/*   Updated: 2026/05/13 18:14:37 by fbarrada         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,9 +48,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	ft_strlcpy(newstr, s1 + start, slen + 1);
 	return (newstr);
 }
-
-// int     main()
-// {
-//         printf("%s", ft_strtrim("   abxfg  ", "x"));
-//         return (0);
-// }

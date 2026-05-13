@@ -6,7 +6,7 @@
 /*   By: fbarrada <fbarrada@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/29 13:32:30 by fbarrada          #+#    #+#             */
-/*   Updated: 2026/04/29 14:23:19 by fbarrada         ###   ########.fr       */
+/*   Updated: 2026/05/13 18:13:44 by fbarrada         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,9 +20,3 @@ void	ft_putstr_fd(char *s, int fd)
 	while (s[i])
 		write(fd, &s[i++], 1);
 }
-
-// int     main()
-// {
-//         ft_putstr_fd("Felyppe", 1);
-//         return (0);
-// }

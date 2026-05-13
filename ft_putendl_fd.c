@@ -6,7 +6,7 @@
 /*   By: fbarrada <fbarrada@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/29 13:37:01 by fbarrada          #+#    #+#             */
-/*   Updated: 2026/05/06 13:55:06 by fbarrada         ###   ########.fr       */
+/*   Updated: 2026/05/13 18:13:32 by fbarrada         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,9 +21,3 @@ void	ft_putendl_fd(char *s, int fd)
 		write(fd, &s[i++], 1);
 	write(fd, "\n", 1);
 }
-
-// int     main()
-// {
-//         ft_putendl_fd("Felyppe", 1);
-//         return (0);
-// }

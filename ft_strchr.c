@@ -6,7 +6,7 @@
 /*   By: fbarrada <fbarrada@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/23 11:45:27 by fbarrada          #+#    #+#             */
-/*   Updated: 2026/05/07 14:22:57 by fbarrada         ###   ########.fr       */
+/*   Updated: 2026/05/13 18:13:55 by fbarrada         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,11 +27,3 @@ char	*ft_strchr(const char *s, int c)
 		return ((char *)&s[i]);
 	return (NULL);
 }
-
-// int     main()
-// {
-//         const char      name[50] = "teste";
-
-//         printf("%p\n", (ft_strchr(name,'\0')));
-//         return (0);
-// }

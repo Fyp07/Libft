@@ -6,7 +6,7 @@
 /*   By: fbarrada <fbarrada@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/28 13:48:37 by fbarrada          #+#    #+#             */
-/*   Updated: 2026/04/29 14:23:31 by fbarrada         ###   ########.fr       */
+/*   Updated: 2026/05/13 18:14:20 by fbarrada         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,9 +38,3 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	str[i] = '\0';
 	return (str);
 }
-
-// int     main()
-// {
-//         printf("%s", ft_strmapi("Felyppe", zzero));
-//         return (0);
-// }

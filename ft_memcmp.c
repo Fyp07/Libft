@@ -6,7 +6,7 @@
 /*   By: fbarrada <fbarrada@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/23 13:41:00 by fbarrada          #+#    #+#             */
-/*   Updated: 2026/05/07 15:54:34 by fbarrada         ###   ########.fr       */
+/*   Updated: 2026/05/13 18:13:14 by fbarrada         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,10 +29,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
-
-// int     main()
-// {
-//         const char      s1[] = "Felyppe";
-//         const char      s2[] = "Felppe";
-//         printf((ft_memcmp(s1, s2, 3)) ? "Different." : "Equal.");
-// }

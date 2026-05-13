@@ -6,7 +6,7 @@
 /*   By: fbarrada <fbarrada@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/28 15:10:10 by fbarrada          #+#    #+#             */
-/*   Updated: 2026/05/12 15:38:52 by fbarrada         ###   ########.fr       */
+/*   Updated: 2026/05/13 18:13:20 by fbarrada         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,12 +39,3 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
-
-// int     main(void)
-// {
-//         char caixa[] = "ABCDE";
-
-//         printf("%s", caixa);
-//         ft_memmove(caixa + 3, caixa, 0);
-//         printf("\n%s", caixa);
-// }

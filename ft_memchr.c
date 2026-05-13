@@ -6,7 +6,7 @@
 /*   By: fbarrada <fbarrada@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/23 13:28:33 by fbarrada          #+#    #+#             */
-/*   Updated: 2026/05/07 13:06:21 by fbarrada         ###   ########.fr       */
+/*   Updated: 2026/05/13 18:13:11 by fbarrada         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,10 +27,3 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
-
-// int     main()
-// {
-//         const char      str[10] = "Felyppe";
-//         printf("%c", *(char *)ft_memchr(str, 'e', 8));
-//         return (0);
-// }

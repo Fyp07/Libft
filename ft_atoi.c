@@ -6,7 +6,7 @@
 /*   By: fbarrada <fbarrada@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/23 14:29:48 by fbarrada          #+#    #+#             */
-/*   Updated: 2026/05/06 12:50:53 by fbarrada         ###   ########.fr       */
+/*   Updated: 2026/05/13 18:12:12 by fbarrada         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,9 +37,3 @@ int	ft_atoi(const char *nptr)
 	}
 	return (res * sign);
 }
-
-// int     main()
-// {
-//         printf("%d", ft_atoi("                +42"));
-//         return (0);
-// }

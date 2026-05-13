@@ -6,7 +6,7 @@
 /*   By: fbarrada <fbarrada@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/29 14:10:51 by fbarrada          #+#    #+#             */
-/*   Updated: 2026/04/29 14:23:02 by fbarrada         ###   ########.fr       */
+/*   Updated: 2026/05/13 18:14:04 by fbarrada         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,12 +33,3 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 		i++;
 	}
 }
-
-// int     main()
-// {
-//         char    str[] = "Felyppe";
-
-//         ft_striteri(str, zzero);
-//         printf("%s", str);
-//         return (0);
-// }

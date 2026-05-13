@@ -6,7 +6,7 @@
 /*   By: fbarrada <fbarrada@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/27 14:47:46 by fbarrada          #+#    #+#             */
-/*   Updated: 2026/05/07 14:18:33 by fbarrada         ###   ########.fr       */
+/*   Updated: 2026/05/13 18:14:41 by fbarrada         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,12 +33,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	ft_strlcpy(sub, str, i);
 	return (sub);
 }
-
-// int     main()
-// {
-//         char    *dest;
-
-//         dest = ft_substr("Hello, World!", 7, 5);
-//         printf("%s\n", dest);
-//         return (0);
-// }

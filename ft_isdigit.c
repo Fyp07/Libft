@@ -6,7 +6,7 @@
 /*   By: fbarrada <fbarrada@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/21 12:15:08 by fbarrada          #+#    #+#             */
-/*   Updated: 2026/05/06 14:13:18 by fbarrada         ###   ########.fr       */
+/*   Updated: 2026/05/13 18:12:29 by fbarrada         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,9 +19,3 @@ int	ft_isdigit(int c)
 	else
 		return (0);
 }
-
-// int	main(void)
-// {
-// 	printf("%d", ft_isdigit('a'));
-// 	return (0);
-// }

@@ -6,7 +6,7 @@
 /*   By: fbarrada <fbarrada@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/27 18:15:11 by fbarrada          #+#    #+#             */
-/*   Updated: 2026/05/07 15:53:40 by fbarrada         ###   ########.fr       */
+/*   Updated: 2026/05/13 18:13:50 by fbarrada         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -87,33 +87,3 @@ char	**ft_split(char const *s, char c)
 	box[count] = 0;
 	return (box);
 }
-// int	main(void)
-// {
-// 	char	**result;
-// 	char	*words;
-// 	int		i;
-
-// 	words = "";
-// 	i = 0;
-// 	char * splitme = ft_strdup("Tripouille");
-// 	result = ft_split(splitme, ' ');
-// 	printf("Teste1:\n");
-// 	if (!result)
-// 	{
-// 		printf("ERRO! String vazia.");
-// 		return (0);
-// 	}
-// 	while (result[i])
-// 	{
-// 		printf("Palavra na posicao [%i]: %s\n", i, result[i]);
-// 		i++;
-// 	}
-// 	i = 0;
-// 	while (result[i])
-// 	{
-// 		free(result[i]);
-// 		i++;
-// 	}
-// 	free(result);
-// 	return (0);
-// }

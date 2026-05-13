@@ -6,7 +6,7 @@
 /*   By: fbarrada <fbarrada@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/29 13:44:43 by fbarrada          #+#    #+#             */
-/*   Updated: 2026/05/06 13:56:49 by fbarrada         ###   ########.fr       */
+/*   Updated: 2026/05/13 18:13:40 by fbarrada         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,9 +28,3 @@ void	ft_putnbr_fd(int n, int fd)
 		ft_putnbr_fd(num / 10, fd);
 	ft_putchar_fd((num % 10) + 48, fd);
 }
-
-// int     main()
-// {
-//         ft_putnbr_fd(-2147483648, 1);
-//         return (0);
-// }
