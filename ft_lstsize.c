@@ -6,7 +6,7 @@
 /*   By: fbarrada <fbarrada@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/07 16:46:12 by fbarrada          #+#    #+#             */
-/*   Updated: 2026/05/07 17:10:15 by fbarrada         ###   ########.fr       */
+/*   Updated: 2026/05/12 20:26:17 by fbarrada         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,15 +14,15 @@
 
 int	ft_lstsize(t_list *lst)
 {
-	t_list	*atual;
+	t_list	*current;
 	int		i;
 
-	atual = lst;
+	current = lst;
 	i = 0;
-	while (atual != NULL)
+	while (current != NULL)
 	{
 		i++;
-		atual = atual->next;
+		current = current->next;
 	}
 	return (i);
 }

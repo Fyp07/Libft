@@ -6,7 +6,7 @@
 /*   By: fbarrada <fbarrada@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/07 15:27:19 by fbarrada          #+#    #+#             */
-/*   Updated: 2026/05/07 15:51:58 by fbarrada         ###   ########.fr       */
+/*   Updated: 2026/05/13 13:40:50 by fbarrada         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,14 +14,14 @@
 
 t_list	*ft_lstnew(void *content)
 {
-	t_list	*box;
+	t_list	*lst;
 
-	box = malloc(sizeof(t_list));
-	if (!box)
+	lst = malloc(sizeof(t_list));
+	if (!lst)
 		return (NULL);
-	box->content = content;
-	box->next = NULL;
-	return (box);
+	lst->content = content;
+	lst->next = NULL;
+	return (lst);
 }
 
 // int     main()

@@ -25,6 +25,8 @@ SRC =   ft_isalpha.c ft_isdigit.c ft_isalnum.c ft_isascii.c ft_isprint.c \
 	ft_lstadd_back.c ft_lstdelone.c ft_lstclear.c ft_lstiter.c \
 	ft_lstmap.c
 
+HEADER = libft.h
+
 NAME = libft.a
 
 COMP = $(SRC:.c=.o)
@@ -34,8 +36,8 @@ all: $(NAME)
 $(NAME): $(COMP)
 	ar rcs $(NAME) $(COMP)
 
-%.o: %.c
-	$(CC) $(CCFLAGS) -I includes -c $< -o $@
+%.o: %.c $(HEADER)
+	$(CC) $(CCFLAGS) -c $< -o $@
 
 clean:
 	rm -f $(COMP)

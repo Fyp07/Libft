@@ -6,7 +6,7 @@
 /*   By: fbarrada <fbarrada@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/07 17:11:56 by fbarrada          #+#    #+#             */
-/*   Updated: 2026/05/12 15:35:17 by fbarrada         ###   ########.fr       */
+/*   Updated: 2026/05/12 20:26:26 by fbarrada         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,15 +15,15 @@
 t_list	*ft_lstlast(t_list *lst)
 {
 	t_list	*last;
-	t_list	*atual;
+	t_list	*current;
 
 	if (!lst)
 		return (NULL);
-	atual = lst;
-	while (atual != NULL)
+	current = lst;
+	while (current != NULL)
 	{
-		last = atual;
-		atual = atual->next;
+		last = current;
+		current = current->next;
 	}
 	return (last);
 }
