@@ -27,7 +27,7 @@
 <br/>
 
 <!-- Add your approval badge image here -->
-<img src="https://github.com/Fyp07/Fyp07/raw/main/assets/LIBFT_APPROVED.png" width="180"/>
+<img src="https://github.com/Fyp07/Libft/raw/main/assets/LIBFT_APPROVED.svg" width="180"/>
 
 </div>
 
