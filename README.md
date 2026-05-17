@@ -2,11 +2,11 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=00000000&height=200&section=header&text=LIBFT&fontSize=72&fontColor=ffa93f&animation=fadeIn&fontAlignY=45&desc=★%20Custom%20C%20Standard%20Library%20★&descAlignY=65&descSize=16&descColor=ffa93f" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=00000000&height=200&section=header&text=LIBFT&fontSize=72&fontColor=8fbdde&animation=fadeIn&fontAlignY=45&desc=★%20Custom%20C%20Standard%20Library%20★&descAlignY=65&descSize=16&descColor=ffa93f" width="100%"/>
 <br/>
 
-![Language](https://img.shields.io/badge/Language-C-fac1b0?style=for-the-badge&labelColor=2d1410)
-![School](https://img.shields.io/badge/42-Porto-ffa93f?style=for-the-badge&labelColor=2d1410)
+![Language](https://img.shields.io/badge/Language-C-d8e9a2?style=for-the-badge&labelColor=2d1410)
+![School](https://img.shields.io/badge/42-Porto-d8e9a2?style=for-the-badge&labelColor=2d1410)
 ![Status](https://img.shields.io/badge/Status-COMPLETED-d8e9a2?style=for-the-badge&labelColor=2d1410)
 
 <br/>
@@ -22,7 +22,7 @@
 ## ✦ SCORE ✦
 
 <!-- Replace the score below with yours and add your approval badge -->
-![Score](https://img.shields.io/badge/Score-100%2F100-fac1b0?style=for-the-badge&labelColor=2d1410)
+![Score](https://img.shields.io/badge/Score-100%2F100-d8e9a2?style=for-the-badge&labelColor=8fbdde)
 
 <br/>
 
